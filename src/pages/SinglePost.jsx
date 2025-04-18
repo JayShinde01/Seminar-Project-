@@ -6,7 +6,7 @@ function SinglePost() {
     console.log(id);
     
   return (
-    <div>SinglePost</div>
+    <div>SinglePost new ok</div>
   )
 }
 

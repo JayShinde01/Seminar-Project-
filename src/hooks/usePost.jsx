@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { auth } from '../services/firebase';
+import { auth } from '../services/firebase.js';
 import {getAllPosts} from "../services/posts.js"
 export function usePost() {
   const[posts,setPosts] = useState([])
